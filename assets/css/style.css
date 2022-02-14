@@ -170,15 +170,33 @@ header nav a:hover {
 
 /* Carrosel */
 .box-filme {
-    width: 80%;
+    height: 350px;
+    width: 100%;
     display: block;
+    cursor: pointer;
 }
 
 .carrosel-filmes {
     margin-top: 5px;
 }
 
+.ultimo-carrosel-filmes {
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+
 .subtitulo {
     color: #fbfffe;
     margin: 0.5em;
+}
+
+/* Footer */
+.end-of-page {
+    height: 30px;
+    text-align: center;
+    color: var(--vermelho);
+    background:var(--preta);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
