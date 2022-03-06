@@ -14,23 +14,15 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="header-area1">
+            <div id="cabecalho">
                 <h2 class="logo">OTAKUFLIX</h2>
                 <nav>
                     <a href="">Início</a>
                     <a href="#mangas">Mangás</a>
-                    <a href="#webtoons">Webtoon</a>
+                    <a href="#webtoons">Webtoons</a>
                     <a href="#novels">Novels</a>
                 </nav>
             </div>
-            <div id="header-area 2">
-                <form class="search-area" >
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn" id="procurar" type="submit"><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-        </div>
     </header>
 
     <main">
@@ -41,10 +33,10 @@
 
             </p>
             <div class="botoes">
-                <button role="button" class="botao">
+                <button role="button" class="botao" id="ler-agora" onclick="redirecionarLer()">
                     <i class="fas fa-play"></i>
                     LER AGORA
-                <button role="button" class="botao">
+                <button role="button" class="botao" id="mais-info" onclick="redirecionarInfo()">
                     <i class="fas fa-info-circle"></i>
                     MAIS INFORMAÇÕES
                 </button>
