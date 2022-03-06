@@ -17,6 +17,6 @@ Otakuflix, essa é minha versão alternativa da Netflix. Ela contém os mangás,
 
 ##
 
-Página hospedada em: netflix-clone-9zame7cgp-artfalcao.vercel.app
+Página hospedada em: https://netflix-clone-kohl-eta.vercel.app/
 
 Se você tiver ideias de novos desafios, principalmente de JavaScript, entra em contato comigo que a gente pode conversar e implantar juntos 🚀💻😄
